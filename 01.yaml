@@ -1,0 +1,9 @@
+---
+- name: first test
+  host: all
+  task:
+    - name: First Ansible Play
+      debug:
+        msg: " Testing Anisble Play"
+
+...  
